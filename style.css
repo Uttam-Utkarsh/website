@@ -53,7 +53,11 @@ html,body{
     }
 }
 
-
+.logofoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .carol{
     width: 100%;
@@ -123,4 +127,20 @@ html,body{
     justify-content: center;
     margin-top: 8px;
     font-size: 1rem;
+}
+
+
+.home{
+    font-size: 1rem;
+}
+
+#quicklinks{
+    padding-top: 10px;
+}
+
+.footlast{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
